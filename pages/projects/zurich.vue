@@ -16,6 +16,7 @@
         li Front End Development (React, Vue, Azure DevOps, Storybook, Scrum) 
         li Design System Development
         li UX/UI Design
+      ExternalLink(link="https://zurich.ch" text="Zurich Insurance Switzerland")
 
 </template>
 

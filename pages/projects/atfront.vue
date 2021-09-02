@@ -4,7 +4,7 @@
       img(src="/img/atfront/atfront-logo.svg").logo
       h1 Atfront
       .role
-       h4 Shortly before leaving the web design agency where I worked for almost four years, I was given the dream job of rebranding the agency and redesigning the corporate web site. I managed the project, and delivered corporate identity assets and a browser-based prototype as documentation for the development and maintenance of the site. 
+       h4 Shortly before leaving the web design agency where I worked for almost four years, I was given the dream assignment of rebranding the agency and redesigning the corporate web site. I managed the project, and delivered corporate identity assets and a browser-based prototype as documentation for the development and maintenance of the site. 
        ProjectInfo(agency="Atfront" client="Atfront" year="2015")
     .screenshots 
       img(src="/img/atfront/atfront-contact.jpg")

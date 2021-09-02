@@ -22,12 +22,7 @@
       img(src="/img/various/lastrada2.jpg").tall
       img(src="/img/various/eyes.jpg")
       img(src="/img/various/bumbug.jpg")
-    .typeset.container
-      h3 Responsibilities
-      ul 
-        li Web Design 
-        li Front End Development (Nuxt.js, Wordpress, Netlify)
-      ExternalLink(link="https://patrickfrank.ch" text="Patrick Frank Site")
+
 
 </template>
 

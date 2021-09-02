@@ -1872,22 +1872,37 @@ ul.projects-list {
 }
 
 ul.projects-list li {
-    padding: 0;
-}
-
-ul.projects-list li a {
     list-style: none;
     width: 100%;
     padding: .5rem 0;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
+    box-shadow: inset 0 -6px 0 lightgreen;
+    transition: box-shadow .2s, color .2s;
 }
 
-ul.projects-list li a span {
+ul.projects-list li.visited {
+    box-shadow: inset 0 -6px 0 rgb(199, 247, 199);
+}
+
+ul.projects-list li.visited span {
+    color: #d9d9d9;
+}
+
+ul.projects-list li.visited:hover span {
+    color: #2E2E2E;
+}
+
+ul.projects-list li:hover {
+    box-shadow: inset 0 -3rem 0 lightgreen;
+}
+
+ul.projects-list li span {
     font-weight: 500;
 }
 
-ul.projects-list li a span.year {
+ul.projects-list li span.year {
     font-weight: 300;
 }
 

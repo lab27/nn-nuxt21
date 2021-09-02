@@ -20,19 +20,19 @@
         li Teaching (University level)
         li Public Speaking & Event Hosting
       Projects
-      ul
-        li Google
-        li Axpo
-        li North Face
-        li Borneo Orangutan Survival Switzerland 
-        li Zurich Insurance
-        li Plan Your Recovery
-        li Samsung
-        li Swiss Airlines
-        li Zürich University of the Arts (ZHdK)
-        li Kanton Zürich
-        li Hilton Hotels
-        li Coca-Cola
+      //- ul
+      //-   li Google
+      //-   li Axpo
+      //-   li North Face
+      //-   li Borneo Orangutan Survival Switzerland 
+      //-   li Zurich Insurance
+      //-   li Plan Your Recovery
+      //-   li Samsung
+      //-   li Swiss Airlines
+      //-   li Zürich University of the Arts (ZHdK)
+      //-   li Kanton Zürich
+      //-   li Hilton Hotels
+      //-   li Coca-Cola
       .portrait 
         img(src="/img/nick_niles-front-intro.jpg")
       h3 Education

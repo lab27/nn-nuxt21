@@ -3,15 +3,19 @@
     hr
     h3(id="projects-list") Select Projects
     ul.projects-list
-      li(v-for="project in projects" v-if="curProj !== project.link")
-        nuxt-link(:to="`/projects/${project.link}`") 
-          span {{project.name}}
-          span.year {{project.year}}
+      li(v-for="project in projects" @click="handleProjClick(project.link)" :class="{visited: visited.includes(project.link)}")
+        span {{project.name}}
+        span.year {{project.year}}
 </template>
 
 <script>
+import {mapGetters} from 'vuex'
 export default {
+
   computed: {
+    ...mapGetters({
+      visited: 'visited'
+    }),
     curProj() {
       const route = $nuxt.$route.path
       return route.replace('/projects/', '')
@@ -36,8 +40,11 @@ export default {
       ]
     }
   },
-  mounted() {
-    console.log();
+  methods: {
+    handleProjClick(path) {
+      this.$store.commit('addToVisited', path)
+      this.$router.push(`/projects/${path}`)
+    }
   }
 }
 </script>
