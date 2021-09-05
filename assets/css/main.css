@@ -1809,18 +1809,33 @@ ul li:before {
 @media screen and (min-width: 800px) {
     .container {
         padding: 0;
+        padding-top: 2rem;
     }
 }
 
 .portrait {
     text-align: center;
+    margin-bottom: 3rem;
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
 }
 
 .portrait img {
+    width: 100%;
     border-radius: 12px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, .15);
-    max-width: 360px;
-    margin: 0 auto;
+    margin-bottom: .5rem;
+}
+
+.portrait figcaption {
+    font-size: .875rem;
+    text-align: left;
+    line-height: 1.4;
+}
+
+.portrait figcaption a {
+    box-shadow: none;
 }
 
 .container-project .role {

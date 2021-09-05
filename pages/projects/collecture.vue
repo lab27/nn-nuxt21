@@ -10,6 +10,7 @@
       img(src="/img/collecture/collecture-phone.jpg")
       img(src="/img/collecture/collecture-logos.jpg")
       img(src="/img/collecture/collecture-landing.jpg")
+      img(src="/img/collecture/collecture-cta.jpg")
       img(src="/img/collecture/collecture-prototype.jpg")
       img(src="/img/collecture/collecture-teaser.jpg")
       img(src="/img/collecture/collecture-mailer.jpg")

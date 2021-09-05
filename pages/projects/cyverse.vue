@@ -1,7 +1,7 @@
 <template lang="pug">
   .container-project
     .container
-      img(src="/img/cyverse/cyverse-logo.svg").logo
+      //- img(src="/img/cyverse/cyverse-logo.svg").logo
       h1 Cyverse
       .role
        h4 This boutique cyber-security firm with headquarters in Switzerland and Israel approached me for a rebrand and web redesign. 
