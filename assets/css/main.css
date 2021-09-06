@@ -1854,6 +1854,7 @@ img.logo {
 
 .screenshots {
     display: flex;
+    align-items: flex-start;
     justify-content: center;
     margin-top: 3rem;
     margin-bottom: 2rem;
