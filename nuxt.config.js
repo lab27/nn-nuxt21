@@ -7,7 +7,7 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'nn-nuxt21',
+        title: 'Nick Niles - Web Design & Development',
         htmlAttrs: {
             lang: 'en'
         },
