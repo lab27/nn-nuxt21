@@ -12,10 +12,9 @@
     .typeset.container
       h3 Responsibilities
       ul 
-        li Web Design 
+        li UI Design
+        li 3D Design 
         li Front End Development (jQuery)
-      //- ExternalLink(link="https://juditpolgar.ch" text="Judit Polgar Site")
-
 </template>
 
 <script>

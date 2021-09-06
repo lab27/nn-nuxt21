@@ -12,8 +12,6 @@
       img(src="/img/atfront/atfront-screenshot.jpg")
       img(src="/img/atfront/atfront-process.jpg")
       img(src="/img/atfront/atfront-eye.png")
-      img(src="/img/atfront/atfront-talk-page.jpg")
-      //- img(src="/img/pyr/division.jpg")
     .typeset.container
       h3 Responsibilities
       ul 

@@ -11,7 +11,8 @@
       h3 Responsibilities
       ul 
         li Web Design 
-        li Front End Development (Gulp)
+        li Illustration
+        li Front End Development (Assemble SSG, Gulp.js)
       ExternalLink(link="http://edboyeracappella.com/" text="Ed Boyer A Cappella")
 
 </template>
