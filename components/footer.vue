@@ -1,6 +1,7 @@
 <template lang="pug">
   footer
-    p &copy; {{year}} Nick Niles
+    span &copy; {{year}} Nick Niles
+    a(href="mailto:nick@nickniles.com") nick@nickniles.com
 </template>
 
 <script>
@@ -20,5 +21,7 @@ footer {
   color: white;
   padding: 2rem;
   margin-top: 10rem;
+  display: flex;
+  justify-content: space-between
 }
 </style>

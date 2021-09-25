@@ -1,7 +1,10 @@
 export default {
     // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-    ssr: false,
-
+    ssr: true,
+    components: [{
+        path: '~/components', // will get any components nested in let's say /components/test too
+        pathPrefix: false,
+    }, ],
     // Target: https://go.nuxtjs.dev/config-target
     target: 'static',
 

@@ -37,10 +37,20 @@
       br
       figure.portrait 
         img(src="/img/nick_niles-front-intro.jpg")
-        figcaption Hosting the Front Conference Zürich 2019. Photo by 
+        figcaption Hosting the Front Conference Zürich 2019. 
+          br
+          |Photo by 
           a(href="https://florianziegler.com/" target="_blank") Florian Ziegler.
+      br
+      br
       h3 Education
-      p I earned a Masters in Film Directing from Columbia University, studied interaction design in the Design &amp; Technology MFA program at Parson School of Design and received bachelor degrees in English and Art from Boston College. 
+      p I earned a Masters in Film Directing from 
+        strong Columbia University
+        |, studied interaction design in the Design &amp; Technology MFA program at 
+        strong Parson School of Design 
+        |and received bachelor degrees in English and Art from 
+        strong Boston College
+        |. 
       p I enjoy creating rich experiences through motion graphics, animations, and interaction design. I’m especially interested in the power of high-fidelity interactive prototypes to help teams save time and money.
 </template>
 
