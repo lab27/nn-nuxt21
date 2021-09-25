@@ -9,7 +9,7 @@
       img(src="/img/various/camille1.jpg")
       img(src="/img/various/gestohlene_raeume.jpg")
       img(src="/img/various/janine.jpg").tall
-      img(src="/img/various/finlandia.jpg").tall
+      //- img(src="/img/various/finlandia.jpg").tall
       img(src="/img/various/harmonia.jpg").tall
       //- img(src="/img/various/camille2.jpg")
       img(src="/img/various/origins.png").tall
@@ -20,7 +20,7 @@
       img(src="/img/various/aston.jpg")
       img(src="/img/various/lastrada1.jpg").tall
       img(src="/img/various/lastrada2.jpg").tall
-      img(src="/img/various/eyes.jpg")
+      //- img(src="/img/various/eyes.jpg")
       img(src="/img/various/bumbug.jpg")
 
 

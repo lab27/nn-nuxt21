@@ -1937,3 +1937,16 @@ ul.projects-list li span.year {
 ul.projects-list li:before {
     display: none;
 }
+
+
+/* transition */
+
+.page-enter-active,
+.page-leave-active {
+    transition: opacity 0.5s;
+}
+
+.page-enter,
+.page-leave-to {
+    opacity: 0;
+}
