@@ -1,12 +1,11 @@
 <template lang="pug">
   .container.typeset
-    section
-      img(src="/img/bison.svg")
+    section.intro
       h1 I’m Nick Niles,
         br 
-        | an American web designer, developer &amp; university lecturer based in Switzerland. 
+        | an American web designer &amp; developer based in Switzerland. 
+      h2 Serving a wide variety of clients since 1998, I'm passionate about guiding organizations and individuals on every facet of the journey from initial idea to a fully realized digital solution. 
     section
-      p Serving a wide variety of clients since 1998, I'm passionate about guiding organizations and individuals on every facet of the journey from initial idea to a fully realized digital solution. 
       h3 Areas of Expertise
       ul 
         li Website &amp; Digital Product Design
@@ -52,6 +51,9 @@
         strong Boston College
         |. 
       p I enjoy creating rich experiences through motion graphics, animations, and interaction design. I’m especially interested in the power of high-fidelity interactive prototypes to help teams save time and money.
+      br 
+      img(src="/img/bison.svg")
+
 </template>
 
 <script>
@@ -75,6 +77,9 @@ section {
   margin-bottom: 2rem;
 }
 
+.intro h2 {
+  font-weight: normal;
+}
 
 
 </style>
