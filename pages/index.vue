@@ -1,10 +1,15 @@
 <template lang="pug">
   .container.typeset
     section.intro
-      h1 I’m Nick Niles,
+      .note Animate this:
+      h1 Hi, I'm Nick Niles, 
         br 
-        | an American web designer &amp; developer based in Switzerland. 
-      h2 Serving a wide variety of clients since 1998, I'm passionate about guiding organizations and individuals on every facet of the journey from initial idea to a fully realized digital solution. 
+        | an American 
+        mark digital product 
+        | &amp; 
+        mark motion graphics 
+        | designer based in Switzerland. 
+      h2 I guide you on the journey from a business need to a fully realized digital solution.
     section
       h3 Areas of Expertise
       ul 
@@ -16,7 +21,7 @@
         li Branding & Identity Design
         li Video Production & Motion Graphics Design
         li Music Composition & Production
-        li Teaching (University level)
+        li Teaching (University Level)
         li Public Speaking & Event Hosting
       Projects
       //- ul
@@ -75,6 +80,10 @@ export default {
 
 section {
   margin-bottom: 2rem;
+}
+
+.into h1 mark {
+  font-weight: 700;
 }
 
 .intro h2 {

@@ -35,6 +35,7 @@ export default {
         {name: 'Cyverse', link: 'cyverse', year: '2015'},
         // {name: 'Ed Boyer A Cappella', link: 'edboyer', year: '2015'},
         {name: 'Smart Home App', link: 'smarthome', year: '2014'},
+        {name: 'White Risk', link: 'whiterisk', year: '2011-2012'},
         {name: 'North Face: Know Boundaries', link: 'knowboundaries', year: '2011'},
         {name: 'Assorted Graphic Design', link: 'various', year: '2012-Present'}
       ]

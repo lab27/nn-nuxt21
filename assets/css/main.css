@@ -4,6 +4,7 @@
 
  :root {
     --c-highlight: #a1e9fd;
+    --c-dark: #111;
 }
 
 body,
@@ -33,7 +34,7 @@ figure {
 
 body {
     font: 700 16px/1.2 -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    color: #111;
+    color: var(--c-dark);
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
@@ -507,6 +508,11 @@ video {
     font: inherit;
     font-weight: 300;
     vertical-align: baseline;
+}
+
+mark {
+    font-weight: inherit;
+    background-color: var(--c-highlight);
 }
 
 article,

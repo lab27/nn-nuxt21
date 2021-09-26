@@ -1,7 +1,6 @@
 <template lang="pug">
   .typeset
-    .topbar
-      nuxt-link(to="/").name Nick Niles
+
     nuxt
     br
     br
