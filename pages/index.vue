@@ -66,7 +66,7 @@ export default {
 section {
   margin-bottom: 2rem;
   /* min-height: 90vh; */
-  padding: 2rem;
+  @apply p-4 md:p-8;
 }
 .section-title {
   @apply text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight lg:leading-tight text-center font-light mb-12;

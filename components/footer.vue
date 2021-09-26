@@ -1,7 +1,7 @@
 <template lang="pug">
   footer
     .thin-line
-    .footer-content
+    .footer-content(class="flex flex-col sm:flex-row text-center sm:text-left")
       span &copy; {{year}} Nick Niles
       a(href="mailto:nick@nickniles.com") nick@nickniles.com
 </template>

@@ -19,8 +19,8 @@
   position: relative;
   display: flex;
   flex-flow: column;
-  @apply text-xl;
-  padding: 2rem;
+  @apply text-xl p-4 md:p-8;
+  
 }
 
 .topbar nav {
