@@ -6,7 +6,7 @@
         nuxt-link(:to="`/projects/${project.link}`" :class="{visited: visited.includes(`/projects/${project.link}`)}").flex.justify-between.w-full.cursor-pointer
           .name-wrapper
             GoArrow
-            span(v-if="project.shortname") {{project.shortname}}
+            span(v-if="project.shortname && !isMedium") {{project.shortname}}
             span(v-else) {{project.name}}
           span.year.text-gray-400 {{project.year}}
 </template>
@@ -40,15 +40,24 @@ export default {
         {name: 'White Risk',  link: 'whiterisk', year: '2011-2012'},
         {name: 'North Face: Know Boundaries', shortname: 'North Face', link: 'knowboundaries', year: '2011'},
         {name: 'Assorted Graphic Design', shortname: 'Various', link: 'various', year: '2012-Present'}
-      ]
+      ],
+      isMedium: false
     }
   },
     watch: {
     $route(e) {
-      console.log('route', e);
       this.$store.commit('addToVisited', e.path)
     },
   },
+  methods: {
+    getWindowWidth() {
+      this.isMedium = window.innerWidth > 768
+    }
+  },
+  mounted() {
+    window.addEventListener('resize', this.getWindowWidth)
+    this.getWindowWidth()
+  }
 }
 </script>
 
