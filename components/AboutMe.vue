@@ -2,10 +2,14 @@
   .about
     section
       //- h3.section-title Nick Niles
-      h3.section-title I enjoy creating rich experiences through motion graphics, animations, and interaction design. I’m especially interested in the power of high-fidelity interactive prototypes to help teams save time and money.
+      h3.section-title I have a passion for weaving compelling stories and elegantly simple digital experiences out of complex systems. 
+      h3.section-title I especially love creating hi-fidelity, realistic 
+        mark prototypes 
+        | for user testing and to communicate designs to the development team. 
       figure.portrait.mb-12
         img(src="/img/nick_niles_frontconf.jpg")
-        figcaption Hosting Front Conference, Zürich 2019
+        figcaption Hosting Front Conference Zurich, 2019
+    Arrow
     section.mb-24
       h3.section-title Education
       ul.list-work

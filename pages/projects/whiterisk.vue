@@ -8,7 +8,9 @@
        ProjectInfo(agency="Atfront" client="SWL" year="2011-2012")
     .screenshots 
       img(src="/img/whiterisk/whiterisk-home.jpg")
-      WRVideo1
+      img(src="/img/whiterisk/whiterisk-learn.jpg")
+      img(src="/img/whiterisk/whiterisk-tool.jpg")
+      WRVideo1(class="w-full md:w-2/3")
     .typeset.container
       h3 Responsibilities
       ul 

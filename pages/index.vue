@@ -17,7 +17,7 @@
           br
           |Photo by 
           a(href="https://florianziegler.com/" target="_blank") Florian Ziegler.
-      h2(class="mx-0 md:mx-12 text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center font-light") I guide you on the journey from a 
+      h2(class="mx-0 md:mx-12 text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center font-light") I guide you on every step of the journey from a 
         mark business need 
         |to a fully-realized 
         mark digital solution
@@ -36,7 +36,7 @@
         li Music Composition & Production
         li Teaching (University Level)
         li Public Speaking & Event Hosting
-      Arrow
+    Arrow
     Projects
     Arrow
     AboutMe

@@ -2,12 +2,12 @@
     .topbar
       nav(class="w-full xs:block md:flex")
         nuxt-link(to="/" class="w-full md:w-1/2 mb-2").font-semibold Nick Niles
-        .rightnav(class="hidden md:block")
+        .rightnav(class="hidden md:block font-light")
           nuxt-link(to="/projects") Projects
           nuxt-link(to="/about") About Me
           nuxt-link(to="/contact") Contact
       .thin-line
-      .mobile-nav(class="flex md:hidden w-full justify-between pb-2 pt-4")
+      .mobile-nav(class="flex md:hidden w-full justify-between font-lightpb-2 pt-4")
         nuxt-link(to="/projects") Projects
         nuxt-link(to="/about") About Me
         nuxt-link(to="/contact") Contact

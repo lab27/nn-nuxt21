@@ -3,7 +3,7 @@
     .container
       h1 Assorted Graphic Design
       .role
-       h4 Here's a smattering of fun projects I've worked on over the years in web and print for artists, musicians, organizations and events. 
+       h4 Here's a collection of fun projects I've worked on over the years in web and print for artists, musicians, organizations and events. 
        ProjectInfo(agency="Freelance" client="Various" year="2012-Present")
     .screenshots 
       img(src="/img/various/camille1.jpg")

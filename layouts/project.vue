@@ -39,4 +39,8 @@ export default {
  {
     @apply text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight text-center font-light mb-6;
 }
+
+.container-project ul {
+  @apply p-4 md:p-8;
+}
 </style>
