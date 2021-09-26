@@ -29,7 +29,8 @@
   @apply font-light;
 }
 
-.topbar .thin-line {
+.topbar .thin-line,
+footer .thin-line {
   margin-top: .75rem;
   height: 1px;
   width: 100%;

@@ -9,8 +9,7 @@
         | &amp; 
         mark motion graphics 
         | designer based in Switzerland.
-      .icon-wrapper
-        img(src="/img/icons/arrow.svg")
+      Arrow
     section
       figure.portrait.mb-12
         img(src="/img/nick-niles_profile.jpg")
@@ -23,8 +22,7 @@
         |to a fully-realized 
         mark digital solution
         |.
-      .icon-wrapper
-        img(src="/img/icons/arrow.svg")
+    Arrow
     section.mb-24
       h3.section-title Areas of Expertise
       ul.list-expertise
@@ -38,15 +36,13 @@
         li Music Composition & Production
         li Teaching (University Level)
         li Public Speaking & Event Hosting
-      .icon-wrapper
-        img(src="/img/icons/arrow.svg")
+      Arrow
     Projects
-    .icon-wrapper
-      img(src="/img/icons/arrow.svg")
+    Arrow
     AboutMe
-    
-    WorkExperience
-    img(src="/img/bison.svg" class="w-1/2 lg:w-1/4 mx-auto")
+    Arrow
+    Contact
+    Bison(class="w-1/2 lg:w-1/4 mx-auto")
 
 </template>
 
@@ -73,8 +69,10 @@ section {
   padding: 2rem;
 }
 .section-title {
-  @apply text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight text-center font-light mb-12;
+  @apply text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight lg:leading-tight text-center font-light mb-12;
 }
+
+
 mark {
   /* background: linear-gradient(yellow, red); */
   /* @apply bg-gradient-to-tr from-green-400 to-blue-500; */
@@ -85,7 +83,7 @@ mark {
 .icon-wrapper {
   display: flex;
   justify-content: center;
-  padding-top: 6rem;
+  /* padding-top: 6rem; */
 }
 
 ul {

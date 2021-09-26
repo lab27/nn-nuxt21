@@ -12,8 +12,7 @@
         WorkItem(company="Columbia University" location="New York City" role="MFA Film Directing" years="2009")
         WorkItem(company="Parsons School of Design" location="New York City" role="Fellow, MFA Design & Technology" years="1997 (DNG)")
         WorkItem(company="Boston College" location="Chestnut Hill, MA" role="BA English, BA Studio Art" years="1997")
-      .icon-wrapper
-        img(src="/img/icons/arrow.svg")
+    Arrow
     section.mb-24
       h3.section-title Speaking
       ul.list-work
@@ -21,6 +20,8 @@
         WorkItem(company="WebZüri" location="Zürich" role="Speaker" years="2017")
         WorkItem(company="Dev Days" location="Zürich" role="Speaker" years="2017")
         WorkItem(company="Front Conference Zurich" location="Zürich" role="Speaker" years="2015")
+    Arrow
+    WorkExperience
 </template>
 
 <style>

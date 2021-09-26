@@ -10,13 +10,13 @@
       img(src="/img/zurich/ausweis1.jpg").tall
       img(src="/img/zurich/ausweis2.jpg").tall
       img(src="/img/zurich/ausweis3.jpg").tall
-    .typeset.container
+    .container
       h3 Responsibilities
       ul 
         li Front End Development (React, Vue, Azure DevOps, Storybook, Scrum) 
         li Design System Development
         li UX/UI Design
-      ExternalLink(link="https://zurich.ch" text="Zurich Insurance Switzerland")
+        ExternalLink(link="https://zurich.ch" text="Zurich Insurance Switzerland")
 
 </template>
 

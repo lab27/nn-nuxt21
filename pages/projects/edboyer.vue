@@ -13,7 +13,7 @@
         li Web Design 
         li Illustration
         li Front End Development (Assemble SSG, Gulp.js)
-      ExternalLink(link="http://edboyeracappella.com/" text="Ed Boyer A Cappella")
+        ExternalLink(link="http://edboyeracappella.com/" text="Ed Boyer A Cappella")
 
 </template>
 

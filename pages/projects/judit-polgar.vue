@@ -12,7 +12,7 @@
       ul 
         li Web Design 
         li Front End Development (11ty, Netlify CMS)
-      ExternalLink(link="https://juditpolgar.ch" text="Judit Polgar Site")
+        ExternalLink(link="https://juditpolgar.ch" text="Judit Polgar Site")
 
 </template>
 

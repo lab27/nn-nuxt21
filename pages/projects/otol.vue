@@ -17,7 +17,7 @@
         li Web Design
         li Front-End Development (Jekyll, Forestry CMS)
         li Video Production, Editing & Music
-      ExternalLink(link="https://one-tree-one-life.org/#campaign" text="One Tree One Life")
+        ExternalLink(link="https://one-tree-one-life.org/#campaign" text="One Tree One Life")
 </template>
 
 <script>

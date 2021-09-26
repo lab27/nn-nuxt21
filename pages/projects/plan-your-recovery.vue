@@ -22,8 +22,8 @@
         li Front End Development (Nuxt.js, Netlify CMS)
         li Video Production & Editing
         li Motion Graphics 
-      ExternalLink(link="https://planyourrecovery.com" text="Plan Your Recovery Site")
-      ExternalLink(link="https://www.youtube.com/c/Planyourrecovery" text="Plan Your Recovery YouTube Channel")
+        ExternalLink(link="https://planyourrecovery.com" text="Plan Your Recovery Site")
+        ExternalLink(link="https://www.youtube.com/c/Planyourrecovery" text="Plan Your Recovery YouTube Channel")
 
 </template>
 

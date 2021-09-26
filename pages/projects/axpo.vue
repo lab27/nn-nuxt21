@@ -5,6 +5,7 @@
     .role
       h4 At Axpo, the largest energy company in Switzerland, I was in charge of design for their customer portal for two years. 
       ProjectInfo(agency="Randstad" client="Axpo" year="2019-Present")
+    .screenshots
     h3 Responsibilities
     ul 
       li UX/UI Design
@@ -15,7 +16,9 @@
       li Business Analysis
       li Customer Research
       li Project Management
-      li User Tests & Customer Interaction Workshops
+      li User Tests & Customer Interaction Workshop
+      ExternalLink(link="https://axpo.com" text="Axpo")
+
 </template>
 
 <script>

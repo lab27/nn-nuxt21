@@ -1,10 +1,12 @@
 <template lang="pug">
   section
     h3.section-title Selected Projects
-    ul.list-work
-      li(v-for="project, index in projects" :key="index").cursor-pointer
+    ul.list-work.list-interactive
+      li(v-for="project, index in projects" :key="index")
         nuxt-link(:to="`/projects/${project.link}`" :class="{visited: visited.includes(`/projects/${project.link}`)}").flex.justify-between.w-full.cursor-pointer
-          span {{project.name}}
+          .name-wrapper
+            GoArrow
+            span {{project.name}}
           span.year.text-gray-400 {{project.year}}
 </template>
 
@@ -49,6 +51,36 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+svg.goArrow {
+  height: 2rem;
+  position: relative;
+  top: .24em;
+  transform: translateX(-1em);
+  transition: transform .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  float: left;
+}
+
+.name-wrapper {
+  overflow-x: hidden;
+}
+
+.name-wrapper span {
+  position: relative;
+  display: inline-block;
+  transition: transform .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: translateX(-.5em);
+}
+
+ul.list-interactive li {
+  cursor: pointer;
+}
+ul.list-interactive li:hover .name-wrapper span {
+  transform: none;
+}
+ul.list-interactive li:hover .name-wrapper svg {
+  transform: translateX(-.5em);
+}
+
 
 </style>

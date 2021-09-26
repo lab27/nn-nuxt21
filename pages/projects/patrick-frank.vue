@@ -12,7 +12,7 @@
       ul 
         li Web Design 
         li Front End Development (Nuxt.js, Wordpress, Netlify)
-      ExternalLink(link="https://patrickfrank.ch" text="Patrick Frank Site")
+        ExternalLink(link="https://patrickfrank.ch" text="Patrick Frank Site")
 
 </template>
 

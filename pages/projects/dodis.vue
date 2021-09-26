@@ -18,8 +18,9 @@
         li 2D &amp; 3D Animation
         li Motion Graphics 
         li Voice Narration
+        li Music Composition
         li Audio Production
-
+        ExternalLink(link="https://dodis.ch" text="Dodis Web")
 </template>
 
 <script>

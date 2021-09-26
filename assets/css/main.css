@@ -7,6 +7,11 @@
     --c-dark: #111;
 }
 
+html,
+body {
+    @apply text-gray-900;
+}
+
 ul {
     list-style: none;
 }

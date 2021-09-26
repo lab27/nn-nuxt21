@@ -20,7 +20,7 @@
         li Illustration 
         li Project Management
         li Front-End Development
-      ExternalLink(link="https://lab27.github.io/atfront-redesign" text="My HTML/CSS Prototype of the redesign")
+        ExternalLink(link="https://lab27.github.io/atfront-redesign" text="My HTML/CSS Prototype of the redesign")
      
 
 </template>
