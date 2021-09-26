@@ -4,7 +4,7 @@
       img(src="/img/incubator/ZHdK_Logo.svg").logo
       h1 Z-Incubator
       .role
-       h4 Together with my wife, Suvi Westerberg, I designed and animated this marketing video for Zürich University Art's startup incubator.
+       h4 Together with my wife, Suvi Westerberg Niles, I designed and animated this marketing video for Zürich University Art's startup incubator.
        ProjectInfo(agency="Sisu Films" client="ZhdK Incubator for Cultural Entrepreneurship" year="2015")
     .screenshots 
       incubatorVideo
