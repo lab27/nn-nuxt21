@@ -22,6 +22,7 @@ export default {
 
 <style>
 .project-info {
+  @apply text-center;
   font-size: .875rem;
 }
 

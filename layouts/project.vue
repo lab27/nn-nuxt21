@@ -1,27 +1,16 @@
 <template lang="pug">
-  .typeset
-
+  main
+    TopBar
     nuxt
     br
     br
-    .container
-      Projects
+    hr.mx-8.border-gray-900.mb-24
+    Projects
     Footer
 </template>
 
 <script>
-import Projects from '~/components/projects'
-import Footer from '~/components/footer'
 export default {
-  components: {
-    Projects,
-    Footer
-  },
-  methods: {
-    goHome() {
-      this.$router.push('/')
-    }
-  }
 }
 </script>
 
@@ -34,5 +23,20 @@ export default {
   padding: 1rem;
   background-color: #fff;
   margin-bottom: 3rem;
+}
+
+.container-project .logo {
+  @apply mx-auto;
+}
+.container-project h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight text-center font-light mb-6;
+}
+.container-project h4 {
+  @apply text-2xl md:text-2xl lg:text-3xl xl:text-4xl leading-relaxed text-center font-light w-full md:w-3/4 mx-auto mb-6;
+}
+
+.container-project h3
+ {
+    @apply text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight text-center font-light mb-6;
 }
 </style>

@@ -1,7 +1,7 @@
 <template lang="pug">
     .topbar
       nav
-        nuxt-link(to="/").name Nick Niles
+        nuxt-link(to="/").font-semibold Nick Niles
         .rightnav
           nuxt-link(to="/projects") Projects
           nuxt-link(to="/about") About Me
@@ -14,6 +14,8 @@
   position: relative;
   display: flex;
   flex-flow: column;
+  @apply text-xl;
+  padding: 2rem;
 }
 
 .topbar nav {
@@ -22,15 +24,16 @@
 }
 
 .topbar nav .rightnav a {
-  margin-left: 1rem;
+  margin-left: 2rem;
   cursor: pointer;
+  @apply font-light;
 }
 
 .topbar .thin-line {
   margin-top: .75rem;
   height: 1px;
   width: 100%;
-  background-color: var(--c-dark);
+  @apply bg-gray-900;
   transform: scaleX(.08);
   animation: zipline 1s forwards;
   animation-delay: 1s;

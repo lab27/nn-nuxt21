@@ -1,12 +1,11 @@
 <template lang="pug">
   section
-    hr
-    h3(id="projects-list") Select Projects
-    ul.projects-list
-      li(v-for="project in projects" )
-        nuxt-link(:to="`/projects/${project.link}`" :class="{visited: visited.includes(`/projects/${project.link}`)}")
+    h3.section-title Selected Projects
+    ul.list-work
+      li(v-for="project, index in projects" :key="index").cursor-pointer
+        nuxt-link(:to="`/projects/${project.link}`" :class="{visited: visited.includes(`/projects/${project.link}`)}").flex.justify-between.w-full.cursor-pointer
           span {{project.name}}
-          span.year {{project.year}}
+          span.year.text-gray-400 {{project.year}}
 </template>
 
 <script>
@@ -49,3 +48,7 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+
+</style>

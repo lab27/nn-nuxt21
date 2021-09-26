@@ -1,6 +1,6 @@
 <template lang="pug">
   .container.container-contact
-    h1 Get in touch
+    h3.section-title Get in touch
     form(netlify action="/" method="POST" name="Contact")
       input(type="hidden" name="form-name" value="Contact")
       p 
