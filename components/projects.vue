@@ -53,7 +53,7 @@ export default {
 
 <style>
 svg.goArrow {
-  height: 2rem;
+  height: 1.5rem;
   position: relative;
   top: .24em;
   transform: translateX(-1em);
@@ -62,7 +62,7 @@ svg.goArrow {
 }
 
 .name-wrapper {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .name-wrapper span {

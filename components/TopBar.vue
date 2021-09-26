@@ -1,12 +1,17 @@
 <template lang="pug">
     .topbar
-      nav
-        nuxt-link(to="/").font-semibold Nick Niles
-        .rightnav
+      nav(class="w-full xs:block md:flex")
+        nuxt-link(to="/" class="w-full md:w-1/2 mb-2").font-semibold Nick Niles
+        .rightnav(class="hidden md:block")
           nuxt-link(to="/projects") Projects
           nuxt-link(to="/about") About Me
           nuxt-link(to="/contact") Contact
       .thin-line
+      .mobile-nav(class="flex md:hidden w-full justify-between pb-2 pt-4")
+        nuxt-link(to="/projects") Projects
+        nuxt-link(to="/about") About Me
+        nuxt-link(to="/contact") Contact
+      .thin-line(class="block md:hidden w-full")
 </template>
 
 <style>
