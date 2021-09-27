@@ -21,6 +21,7 @@ export default {
             { name: 'format-detection', content: 'telephone=no' }
         ],
         link: [
+            { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
             { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
         ]
     },
@@ -37,9 +38,12 @@ export default {
     components: true,
 
     // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-    buildModules: ['@nuxtjs/tailwindcss'],
+    buildModules: ['@nuxtjs/tailwindcss', '@nuxtjs/google-analytics'],
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [],
+    googleAnalytics: {
+        id: 'UA-3966538-1'
+    },
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {}

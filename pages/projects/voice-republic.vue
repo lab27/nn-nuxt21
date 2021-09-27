@@ -27,10 +27,10 @@
           | Created wireframes and mockups for new features and apps (Sketch, Illustrator).
         li 
           strong Design & Prototyping: 
-          | Deliver browser-based prototypes of each new feature for validation, testing and documentation.
+          | Delivered browser-based prototypes of each new feature for validation, testing and documentation.
         li 
           strong Front-End Development: 
-          | Implement designs using HAML, JQuery, Rails, SCSS and React with Clojurescript.
+          | Implemented designs using HAML, JQuery, Rails, SCSS and React with Clojurescript.
      
 
 </template>

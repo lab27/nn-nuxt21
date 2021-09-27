@@ -1,3 +1,3 @@
 <template lang="pug">
-  Contact
+Contact(class="min-h-full")
 </template>

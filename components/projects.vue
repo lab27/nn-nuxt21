@@ -63,9 +63,9 @@ export default {
 
 <style>
 svg.goArrow {
-  height: 1.5rem;
+  height: 1em;
   position: relative;
-  top: .24em;
+  top: .25em;
   transform: translateX(-1em);
   transition: transform .3s cubic-bezier(0.075, 0.82, 0.165, 1);
   float: left;
@@ -87,10 +87,18 @@ ul.list-interactive li {
 }
 ul.list-interactive li:hover .name-wrapper span {
   transform: none;
+  color: dodgerblue;
+}
+ul.list-interactive li:hover .year {
+  color: dodgerblue;
 }
 ul.list-interactive li:hover .name-wrapper svg {
   transform: translateX(-.5em);
 }
 
+.goArrow {
+  /* color: rgb(19, 255, 93); */
+  color: dodgerblue;
+}
 
 </style>

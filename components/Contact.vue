@@ -1,5 +1,5 @@
 <template lang="pug">
-  .about
+  .contact
     section
       h3.section-title Get in touch
       ul.list-work 

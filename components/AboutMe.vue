@@ -3,8 +3,8 @@
     section
       //- h3.section-title Nick Niles
       h3.section-title I have a passion for weaving compelling stories and elegantly simple digital experiences out of complex systems. 
-      h3.section-title I especially love creating hi-fidelity, realistic 
-        mark prototypes 
+      h3.section-title I especially love creating  
+        mark hi-fidelity, realistic prototypes 
         | for user testing and to communicate designs to the development team. 
       figure.portrait.mb-12
         img(src="/img/nick_niles_frontconf.jpg")

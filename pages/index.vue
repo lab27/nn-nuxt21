@@ -77,7 +77,9 @@ mark {
   /* background: linear-gradient(yellow, red); */
   /* @apply bg-gradient-to-tr from-green-400 to-blue-500; */
   /* background: linear-gradient(to top right, rgba(255, 140, 0, 0.2), rgba(255, 225, 0, 0.2)); */
-  background: rgba(255, 251, 144, .8);
+  background: none;
+  background: linear-gradient(transparent, dodgerblue);
+  /* box-shadow: inset 0 -0.75em 0 -0.25em rgba(30, 144, 255, .3); */
 }
 
 .icon-wrapper {
