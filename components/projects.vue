@@ -85,6 +85,14 @@ svg.goArrow {
 ul.list-interactive li {
   cursor: pointer;
 }
+
+ul.list-interactive li .name-wrapper span,
+ul.list-interactive li .year
+
+{
+  transition: color .2s;
+}
+
 ul.list-interactive li:hover .name-wrapper span {
   transform: none;
   color: dodgerblue;

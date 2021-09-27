@@ -1,3 +1,9 @@
 <template lang="pug">
-Contact(class="min-h-full")
+Contact.page-contact
 </template>
+
+<style>
+.page-contact {
+  min-height: 90vh;
+}
+</style>

@@ -41,8 +41,10 @@
     Arrow
     AboutMe
     Arrow
-    Contact
-    Bison(class="w-1/2 lg:w-1/4 mx-auto")
+    Contact(class="mb-12")
+    nuxt-link(to="/projects")
+      Bison(class="w-1/2 lg:w-1/4 mx-auto")
+      p.m-12.text-center View Projects
 
 </template>
 
@@ -78,7 +80,7 @@ mark {
   /* @apply bg-gradient-to-tr from-green-400 to-blue-500; */
   /* background: linear-gradient(to top right, rgba(255, 140, 0, 0.2), rgba(255, 225, 0, 0.2)); */
   background: none;
-  background: linear-gradient(transparent, dodgerblue);
+  background: linear-gradient(to top right, rgba(144, 238, 144, .6), rgba(255, 255, 0, .4));
   /* box-shadow: inset 0 -0.75em 0 -0.25em rgba(30, 144, 255, .3); */
 }
 

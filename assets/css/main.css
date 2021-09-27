@@ -94,10 +94,6 @@ img.logo {
     box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
 }
 
-.screenshots .wrapper {
-    width: 100%;
-}
-
 @media screen and (min-width: 800px) {
     .screenshots img {
         width: auto;
