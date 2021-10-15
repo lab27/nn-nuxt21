@@ -7,7 +7,7 @@
         mark hi-fidelity, realistic prototypes 
         | for user testing and to communicate designs to the development team. 
       figure.portrait.mb-12
-        img(src="/img/nick_niles_frontconf.jpg")
+        img(src="/img/nick_niles_frontconf2.jpg")
         figcaption Hosting Front Conference Zurich, 2019
     Arrow
     section.mb-24
@@ -16,6 +16,14 @@
         WorkItem(company="Columbia University" location="New York City" role="MFA Film Directing" years="2009")
         WorkItem(company="Parsons School of Design" location="New York City" role="Fellow, MFA Design & Technology" years="1997 (DNG)")
         WorkItem(company="Boston College" location="Chestnut Hill, MA" role="BA English, BA Studio Art" years="1997")
+    Arrow
+    section.mb-24
+      h3.section-title Further Education
+      ul.list-work
+        a(href="https://secondwavedive.com" target="_blank")
+          WorkItem(company="Strategic Business Thinking for Designers" location="Second Wave Dive" role="Online" years="2021")
+        a(href="https://masteringnuxt.com" target="_blank")
+          WorkItem(company="Mastering Nuxt" location="NuxtJS" role="Online" years="2021")
     Arrow
     section.mb-24
       h3.section-title Speaking

@@ -2,16 +2,15 @@
   .container.typeset
     section.intro
       //- .note Animate this:
-      h1(class="text-5xl md:text-7xl lg:text-8xl xl:text-9xl text-center mb-12 tracking-tight") Hi, I'm Nick Niles, 
+      h1(class="text-5xl md:text-7xl lg:text-8xl xl:text-9xl text-center mb-12 tracking-tight") Hi, I'm Nick Niles.
         br 
-        | an American 
-        mark digital product 
-        | &amp; 
-        mark motion graphics 
-        | designer based in Switzerland.
-      Arrow
+        | I make 
+        mark websites 
+        |.
+      //- Arrow
     section
-      figure.portrait.mb-12
+      FancyPortrait
+      //- figure.portrait.mb-12
         img(src="/img/nick-niles_profile.jpg")
         //- figcaption Hosting the Front Conference Zürich 2019. 
           br
@@ -80,7 +79,7 @@ mark {
   /* @apply bg-gradient-to-tr from-green-400 to-blue-500; */
   /* background: linear-gradient(to top right, rgba(255, 140, 0, 0.2), rgba(255, 225, 0, 0.2)); */
   background: none;
-  background: linear-gradient(to top right, rgba(144, 238, 144, .6), rgba(255, 255, 0, .4));
+  background: linear-gradient(to top right, rgba(144, 238, 144, .3), rgba(255, 255, 0, .2));
   /* box-shadow: inset 0 -0.75em 0 -0.25em rgba(30, 144, 255, .3); */
 }
 
