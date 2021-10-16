@@ -18,6 +18,14 @@
         WorkItem(company="Boston College" location="Chestnut Hill, MA" role="BA English, BA Studio Art" years="1997")
     Arrow
     section.mb-24
+      h3.section-title Further Education
+      ul.list-work
+        a(href="https://secondwavedive.com" target="_blank")
+          WorkItem(company="Strategic Business Thinking for Designers" location="Second Wave Dive" role="Online Course" years="2021")
+        a(href="https://masteringnuxt.com" target="_blank")
+          WorkItem(company="Mastering Nuxt" location="NuxtJS" role="Online Course" years="2021")
+    Arrow
+    section.mb-24
       h3.section-title Speaking
       ul.list-work
         WorkItem(company="Front Conference Zurich" location="Zürich" role="Host" years="2019/2021")
