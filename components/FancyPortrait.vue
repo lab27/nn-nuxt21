@@ -161,10 +161,10 @@ stroke:#E47164; stroke-opacity:1; fill-opacity:0; stroke-width:50; stroke-lineca
     </g>
   </g>
 </svg>
-    <div id="airplaneWrapper">
+    <!-- <div id="airplaneWrapper">
     <img src="/img/airplane.png" alt="Nick Niles' Airplane" id="airplane">
-    </div>
-    <!-- <img src="/img/nick_niles_gradient.png" alt="Nick Niles, Web Designer" class="centered" id="nick"> -->
+    </div> -->
+    <img src="/img/nick_niles_gradient.png" alt="Nick Niles, Web Designer" class="centered" id="nick">
 <svg viewBox="-683 -512 1366 1024" xmlns="http://www.w3.org/2000/svg" id="wiggles">
   <style>
 svg { background:none; }

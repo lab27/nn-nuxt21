@@ -9,8 +9,8 @@
         |.
       //- Arrow
     section
-      FancyPortrait
-      //- figure.portrait.mb-12
+      //- FancyPortrait
+      figure.portrait.mb-12
         img(src="/img/nick-niles_profile.jpg")
         //- figcaption Hosting the Front Conference Zürich 2019. 
           br
