@@ -8,7 +8,7 @@
         | for user testing and to communicate designs to the development team. 
       figure.portrait.mb-12
         img(src="/img/nick_niles_frontconf2.jpg")
-        figcaption Hosting Front Conference Zurich, 2019
+        figcaption At the Front Conference Zurich, 2019
     Arrow
     section.mb-24
       h3.section-title Education
