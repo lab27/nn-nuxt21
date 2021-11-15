@@ -7,9 +7,15 @@
        h4 White Risk is a comprehensive portal for avalanche prevention, featuring hundreds of pages, tools, graphics and animations to help users learn how avalanches form and how to stay safe in the snow. I created much of the visual content for the portal.
        ProjectInfo(agency="Atfront" client="SWL" year="2011-2012")
     .screenshots 
-      img(src="/img/whiterisk/whiterisk-home.jpg")
-      img(src="/img/whiterisk/whiterisk-learn.jpg")
-      img(src="/img/whiterisk/whiterisk-tool.jpg")
+      figure
+        img(src="/img/whiterisk/whiterisk-home.jpg")
+        figcaption Landing Page
+      figure
+        img(src="/img/whiterisk/whiterisk-learn.jpg")
+        figcaption Landing Page
+      figure
+        img(src="/img/whiterisk/whiterisk-tool.jpg")
+        figcaption Content Page
       WRVideo1(class="w-full md:w-2/3")
     .typeset.container
       h3 Responsibilities

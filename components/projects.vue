@@ -1,6 +1,6 @@
 <template lang="pug">
   section
-    h3.section-title Selected Projects
+    h3.section-title {{projAdjective}} Projects
     ul.list-work.list-interactive
       li(v-for="project, index in projects" :key="index")
         nuxt-link(:to="`/projects/${project.link}`" :class="{visited: visited.includes(`/projects/${project.link}`)}").flex.justify-between.w-full.cursor-pointer
@@ -19,6 +19,12 @@ export default {
     ...mapGetters({
       visited: 'visited'
     }),
+    isHome() {
+      return this.$route.path === '/'
+    },
+    projAdjective() {
+      return this.isHome ? 'Selected' : 'More'
+    }
   },
   data() {
     return {

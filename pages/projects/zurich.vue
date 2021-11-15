@@ -7,9 +7,15 @@
        h4 I was part of a cutting-edge web development team dedicated to refactoring, theming and building new features for the regional Zurich and Vita web sites. Responsibilities included: modern reactive web development and high-fidelity prototyping using React, Vue, SASS and Storybook among other tools.
        ProjectInfo(agency="Viu" client="Zurich Insurance" year="2018-2019")
     .screenshots 
-      img(src="/img/zurich/ausweis1.jpg").tall
-      img(src="/img/zurich/ausweis2.jpg").tall
-      img(src="/img/zurich/ausweis3.jpg").tall
+      figure
+        img(src="/img/zurich/ausweis1.jpg").tall
+        figcaption UI design
+      figure
+        img(src="/img/zurich/ausweis2.jpg").tall
+        figcaption UI design
+      figure
+        img(src="/img/zurich/ausweis3.jpg").tall
+        figcaption UI design
     .container
       h3 Responsibilities
       ul 

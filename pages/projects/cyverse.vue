@@ -7,10 +7,18 @@
        h4 This boutique cyber-security firm with headquarters in Switzerland and Israel approached me for a rebrand and web redesign. 
        ProjectInfo(agency="Freelance" client="Cyverse" year="2015")
     .screenshots 
-      img(src="/img/cyverse/cyverse-start.jpg")
-      img(src="/img/cyverse/cyverse-tools.jpg")
-      img(src="/img/cyverse/cyverse-logo.png")
-      img(src="/img/cyverse/cyverse_logo-white.png")
+      figure
+        img(src="/img/cyverse/cyverse-start.jpg")
+        figcaption Landing Page
+      figure
+        img(src="/img/cyverse/cyverse-tools.jpg")
+        figcaption Info Page
+      figure
+        img(src="/img/cyverse/cyverse_logo-white.png")
+        figcaption Logo Normal
+      figure
+        img(src="/img/cyverse/cyverse-logo.png")
+        figcaption Logo Dark Mode
     .typeset.container
       h3 Responsibilities
       ul 

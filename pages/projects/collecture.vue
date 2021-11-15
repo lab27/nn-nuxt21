@@ -7,15 +7,29 @@
        h4 Collecture was a mobile lecture-capture solution developed by 200OK, the Swiss-based startup incubator and product foundry. I was asked to create their corporate identity and develop a new UX/UI for the app and platform.
        ProjectInfo(agency="200OK" client="Collecture" year="2017-2018")
     .screenshots 
-      img(src="/img/collecture/collecture-phone.jpg")
-      img(src="/img/collecture/collecture-logos.jpg")
-      img(src="/img/collecture/collecture-landing.jpg")
-      img(src="/img/collecture/collecture-cta.jpg")
-      img(src="/img/collecture/collecture-prototype.jpg")
-      img(src="/img/collecture/collecture-teaser.jpg")
-      img(src="/img/collecture/collecture-mailer.jpg")
-      //- img(src="/img/collecture/collecture-sketches.png")
-      //- img(src="/img/pyr/division.jpg")
+       figure 
+        img(src="/img/collecture/collecture-phone.jpg")
+        figcaption UI design
+       figure 
+        img(src="/img/collecture/collecture-logos.jpg")
+        figcaption Branding design
+       figure 
+        img(src="/img/collecture/collecture-landing.jpg")
+        figcaption Landing page with animation
+       figure 
+        img(src="/img/collecture/collecture-cta.jpg")
+        figcaption Landing page
+       figure 
+        img(src="/img/collecture/collecture-prototype.jpg")
+        figcaption High-fidelity prototype
+        //-  figure 
+          img(src="/img/collecture/collecture-teaser.jpg")
+          figcaption UI design
+        //-  figure 
+          img(src="/img/collecture/collecture-mailer.jpg")
+          figcaption UI design
+        //- img(src="/img/collecture/collecture-sketches.png")
+        //- img(src="/img/pyr/division.jpg")
     .typeset.container
       h3 Responsibilities
       ul 

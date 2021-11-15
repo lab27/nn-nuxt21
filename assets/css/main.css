@@ -91,6 +91,7 @@ img.logo {
 
 .screenshots figure {
   margin: 1rem;
+  width: fit-content;
 }
 
 .screenshots figure figcaption {
@@ -114,6 +115,7 @@ img.logo {
         width: auto;
         max-height: 300px;
     }
+
 }
 
 .screenshots img.tall {

@@ -7,12 +7,22 @@
        h4 Voice Republic was a platform for high-quality spoken content, with headquarters in Zürich and Berlin. It offered conferences, lecture series, book fairs and individual podcasters an easy way to live-stream their content. Notable appearances included Edward Snowden, Slawoj Zizek and Angela Merkel. As Head of Product Design on a small team, I redesigned the product and implemented much of the front-end code myself.
        ProjectInfo(client="Voice Republic Media" year="2015-2017")
     .screenshots 
-      img(src="/img/vr/vr-home.jpg")
-      img(src="/img/vr/vr-profile.jpg")
-      img(src="/img/vr/vr-talk-page.jpg")
-      img(src="/img/vr/vr-stages.png")
-      img(src="/img/vr/vr-stage-controller.jpg")
-      //- img(src="/img/pyr/division.jpg")
+       figure 
+        img(src="/img/vr/vr-home.jpg")
+        figcaption Landing Page
+       figure 
+        img(src="/img/vr/vr-profile.jpg")
+        figcaption Organization Page
+       figure 
+        img(src="/img/vr/vr-talk-page.jpg")
+        figcaption Talk Page
+       figure 
+        img(src="/img/vr/vr-stages.png")
+        figcaption Internal Stage Tool
+       figure 
+        img(src="/img/vr/vr-stage-controller.jpg")
+        figcaption Talk Controller
+        //- img(src="/img/pyr/division.jpg")
     .typeset.container
       h3 Responsibilities
       ul 

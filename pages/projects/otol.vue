@@ -7,9 +7,15 @@
         h4 For this Borneo reforestation initiative, I was fortunate enough to work with Borneo Orangutan Survival Switzerland to create a brand and online presence.  
         ProjectInfo(agency="Freelance" client="Borneo Orangutan Survival" year="2017")
     .screenshots
-      img(src="/img/otol/otol1.jpg")
-      img(src="/img/otol/otol2.jpg")
-      img(src="/img/otol/otol3.jpg")
+       figure 
+        img(src="/img/otol/otol1.jpg")
+        figcaption Landing page with branding
+       figure 
+        img(src="/img/otol/otol2.jpg")
+        figcaption Landing page
+       figure 
+        img(src="/img/otol/otol3.jpg")
+        figcaption Video still
     .container.typeset
       h3 Responsibilities
       ul 
