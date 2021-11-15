@@ -3,7 +3,7 @@
     img(src="/img/axpo-logo.svg").logo
     h1 Axpo Customer Portal
     .role
-      h4 At Axpo, the largest energy company in Switzerland, I was in charge of design for their customer portal for two years. 
+      h4 I’m working at the intersection between business and product to expand their customer portal, bringing digital tools from idea stage through implementation and refinement.
       ProjectInfo(agency="Randstad" client="Axpo" year="2019-Present")
     .screenshots
       figure 

@@ -94,8 +94,12 @@ img.logo {
 }
 
 .screenshots figure figcaption {
-  @apply text-center;
+  @apply text-center pt-2;
   font-size: .875rem;
+}
+
+.screenshots figure figcaption a:hover {
+  @apply underline;
 }
 
 .screenshots img {
