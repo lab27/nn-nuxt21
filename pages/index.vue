@@ -22,7 +22,7 @@
         mark digital solution
         |.
     Arrow
-    section.mb-24
+    section
       h3.section-title Areas of Expertise
       ul.list-expertise
         li Website &amp; Digital Product Design

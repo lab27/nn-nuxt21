@@ -2,12 +2,12 @@
   section
     h3.section-title {{projAdjective}} Projects
     ul.list-work.list-interactive
-      li(v-for="project, index in projects" :key="index")
+      li(v-for="project, index in projects" :key="index" v-if="!$route.path.includes(project.link)")
         nuxt-link(:to="`/projects/${project.link}`" :class="{visited: visited.includes(`/projects/${project.link}`)}").flex.justify-between.w-full.cursor-pointer
           .name-wrapper
             GoArrow
             span(v-if="project.shortname && !isMedium") {{project.shortname}}
-            span(v-else) {{project.name}}
+            span(v-else) {{project.name}} 
           span.year.text-gray-400 {{project.year}}
 </template>
 
@@ -22,8 +22,15 @@ export default {
     isHome() {
       return this.$route.path === '/'
     },
+    isProjects() {
+      return this.$route.path === '/projects'
+    },
+
+    isUniqueProject() {
+      return this.$route.path.includes('/projects/')
+    },
     projAdjective() {
-      return this.isHome ? 'Selected' : 'More'
+      return this.isHome || this.isProjects ? 'Selected' : 'More'
     }
   },
   data() {
