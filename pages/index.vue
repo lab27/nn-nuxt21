@@ -38,8 +38,8 @@
     Arrow
     Projects
     Arrow
-    AboutMe
-    Arrow
+    //- AboutMe
+    //- Arrow
     Contact(class="mb-12")
     nuxt-link(to="/projects")
       Bison(class="w-1/2 lg:w-1/4 mx-auto")

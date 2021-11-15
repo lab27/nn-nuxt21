@@ -2,8 +2,8 @@
   .about
     section
       //- h3.section-title Nick Niles
-      h3.section-title I have a passion for weaving compelling stories and elegantly simple digital experiences out of complex systems. 
-      h3.section-title I especially love creating  
+      h3.section-title I’m an insatiable learner with a passion for weaving compelling stories and elegantly simple experiences out of complex systems. I’m always excited to share my knowledge with others. 
+      //- h3.section-title I especially love creating  
         mark hi-fidelity, realistic prototypes 
         | for user testing and to communicate designs to the development team. 
       figure.portrait.mb-12

@@ -13,6 +13,7 @@ body {
     overflow-x: hidden;
 }
 
+
 ul {
     list-style: none;
 }
@@ -88,9 +89,18 @@ img.logo {
     padding: 0 2rem;
 }
 
+.screenshots figure {
+  margin: 1rem;
+}
+
+.screenshots figure figcaption {
+  @apply text-center;
+  font-size: .875rem;
+}
+
 .screenshots img {
     width: 100%;
-    margin: 1rem;
+    /* margin: 1rem; */
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
 }

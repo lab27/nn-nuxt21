@@ -6,6 +6,24 @@
       h4 At Axpo, the largest energy company in Switzerland, I was in charge of design for their customer portal for two years. 
       ProjectInfo(agency="Randstad" client="Axpo" year="2019-Present")
     .screenshots
+      figure 
+        img(src="/img/axpo/energydata.png")
+        figcaption UI design.
+      figure 
+        img(src="/img/axpo/landing.jpg")
+        figcaption Landing page design.
+      figure
+        img(src="/img/axpo/portfolio.png")
+        figcaption UI design.
+      figure
+        img(src="/img/axpo/positions.png")
+        figcaption UI design.
+      figure
+        img(src="/img/axpo/videostill.jpg")
+        figcaption Video still.
+      figure
+        img(src="/img/axpo/cardspecs.png")
+        figcaption Sample of design specs.
     h3 Responsibilities
     ul 
       li UX/UI Design
