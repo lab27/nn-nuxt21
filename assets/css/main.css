@@ -92,6 +92,7 @@ img.logo {
 .screenshots figure {
   margin: 1rem;
   width: fit-content;
+  position: relative;
 }
 
 .screenshots figure figcaption {
@@ -177,4 +178,23 @@ ul.projects-list li:before {
 .page-enter,
 .page-leave-to {
     opacity: 0;
+}
+
+.vidLink {
+  color: white;
+  width: 80px;
+  height: 80px;
+  border: 6px solid white;
+  position: absolute;
+  bottom: 3rem;
+  right: 1rem;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+
+.vidLink svg {
+  width: 80px;
+  height: 80px;
+  fill: currentColor;
 }

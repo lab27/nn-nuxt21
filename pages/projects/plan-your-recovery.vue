@@ -4,9 +4,9 @@
       img(src="/img/pyr/pyr-logo-wing.svg").logo
       h1 Plan Your Recovery
       .role
-       h4 For almost a decade, I've been working closely with my friend 
+       h4 For almost a decade, I've been working closely with Plan Your Recovery 
         a(href="https://twitter.com/NedPresnall" target="_blank") Ned
-        |  on the branding, marketing and online presence of his addiction treatment clinic and educational platform, mostly on a pro-bono basis. 
+        |  on the branding, marketing and online presence of their addiction treatment clinic and educational platform, mostly on a pro-bono basis. 
        ProjectInfo(agency="Freelance" client="Plan Your Recovery" year="2012-2021")
     .screenshots 
       figure
@@ -14,22 +14,21 @@
         figcaption Front page of the website.
       figure
         img(src="/img/pyr/pinball.jpg")
-        figcaption Video still. (
-          |
-          a(href="https://www.youtube.com/watch?v=hg09_-89caY" target="_blank") Watch on YouTube
-          |)
+        a(href="https://www.youtube.com/watch?v=hg09_-89caY" target="_blank").vidLink
+          svg(v-svg symbol="playButton")
+        figcaption Still from <em>Understanding Addiction: The Gas and Brakes of Human Motivation</em>
       figure
         img(src="/img/pyr/archie.jpg")
-        figcaption Video still. (
-          |
-          a(href="https://www.youtube.com/watch?v=iHJ6K4VQvrw" target="_blank") Watch on YouTube
-          |)
+        a(href="https://www.youtube.com/watch?v=iHJ6K4VQvrw" target="_blank").vidLink
+          svg(v-svg symbol="playButton")
+        figcaption Still from <em>Medication Assisted Treatment: Methadone Testimonial</em>
+
       figure
         img(src="/img/pyr/rockbottom.jpg")
-        figcaption Video still. (
-          |
-          a(href="https://www.youtube.com/watch?v=MxO164ADK7Y" target="_blank") Watch on YouTube
-          |)
+        a(href="https://www.youtube.com/watch?v=MxO164ADK7Y" target="_blank").vidLink
+          svg(v-svg symbol="playButton")
+        figcaption Still from <em>Beyond Rock Bottom: Medication Assisted Treatment</em>
+
       //- img(src="/img/pyr/division.jpg")
     .typeset.container
       h3 Responsibilities
