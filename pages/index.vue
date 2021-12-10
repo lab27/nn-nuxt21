@@ -11,7 +11,7 @@
     section
       //- FancyPortrait
       figure.portrait.mb-12
-        img(src="/img/nick-niles_profile.jpg")
+        img(src="/img/nick_niles_frontconf2.jpg")
         //- figcaption Hosting the Front Conference Zürich 2019. 
           br
           |Photo by 
