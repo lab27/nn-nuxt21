@@ -8,7 +8,7 @@
         mark websites 
         |.
       //- Arrow
-    section
+    section.content.border
       //- FancyPortrait
       figure.portrait.mb-12
         img(src="/img/nick_niles_frontconf2.jpg")
@@ -16,6 +16,7 @@
           br
           |Photo by 
           a(href="https://florianziegler.com/" target="_blank") Florian Ziegler.
+      .box
       h2(class="mx-0 md:mx-12 text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center font-light") I guide you on every step of the journey from a 
         mark business need 
         |to a fully-realized 
@@ -52,12 +53,37 @@ import Projects from '~/components/projects'
 export default {
   components: {
     Projects
+  },
+  methods: {
+    animateOnScroll() {
+      // this.$gsap.to(window, { duration: 2, scrollTo: 1000 })
+
+      this.$gsap.to('.box', {
+        x: 1000,
+        ease: 'Power1.easeInOut',
+        scrollTrigger: {
+          trigger: '.content',
+          pin: false,
+          end: 'bottom',
+          scrub: true
+        }
+      })
+    }
+  },
+  mounted(){
+        this.animateOnScroll()
+
   }
 }
 </script>
 
 
 <style>
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: hotpink;
+}
 .container {
   width: 100%;
   max-width: 1600px;
