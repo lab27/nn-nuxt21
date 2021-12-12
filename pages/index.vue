@@ -2,9 +2,9 @@
   .container.typeset
     section.intro
       //- .note Animate this:
-      h1(class="text-5xl md:text-7xl lg:text-8xl xl:text-9xl text-center mb-12 tracking-tight") Hi, I'm Nick Niles.
+      h1(class="text-5xl md:text-7xl lg:text-8xl xl:text-9xl text-center mb-12 tracking-tight") Hi, We're Pastiche.
         br 
-        | I make 
+        | We make 
         mark websites 
         |.
       //- Arrow
