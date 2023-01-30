@@ -5,7 +5,6 @@
       h1 Plan Your Recovery
       .role
        h4 For almost a decade, I've been working closely with Plan Your Recovery 
-        a(href="https://twitter.com/NedPresnall" target="_blank") Ned
         |  on the branding, marketing and online presence of their addiction treatment clinic and educational platform, mostly on a pro-bono basis. 
        ProjectInfo(agency="Freelance" client="Plan Your Recovery" year="2012-2021")
     .screenshots 
