@@ -8,7 +8,7 @@
           a( href="mailto:nick@nickniles.com") nick@nickniles.com
         li
           span Phone
-          a( href="tel:00410763273136") +41 (0)76 327 31 36
+          a( href="tel:0018054503774") +1 (805) 450-3774
         li
           span LinkedIn
           a(href="https://www.linkedin.com/in/nickniles/" target="_blank") /in/nickniles

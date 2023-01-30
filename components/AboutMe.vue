@@ -2,7 +2,7 @@
   .about
     section
       //- h3.section-title Nick Niles
-      h3.section-title I’m an insatiable learner with a passion for weaving compelling stories and elegantly simple experiences out of complex systems, and then sharing what I learn with others.
+      h3.section-title I’m an insatiable learner with a passion for weaving compelling stories and elegantly simple experiences out of complex systems, and sharing what I learn with others.
       //- h3.section-title I especially love creating  
         mark hi-fidelity, realistic prototypes 
         | for user testing and to communicate designs to the development team. 
@@ -28,7 +28,9 @@
     section.mb-24
       h3.section-title Speaking
       ul.list-work
-        WorkItem(company="Front Conference Zurich" location="Zürich" role="Host" years="2019/2021")
+        WorkItem(company="Front Conference Zurich" location="Zürich" role="Host" years="2022")
+        WorkItem(company="Front Conference Zurich" location="Zürich" role="Host" years="2021")
+        WorkItem(company="Front Conference Zurich" location="Zürich" role="Host" years="2019")
         WorkItem(company="WebZüri" location="Zürich" role="Speaker" years="2017")
         WorkItem(company="Dev Days" location="Zürich" role="Speaker" years="2017")
         WorkItem(company="Front Conference Zurich" location="Zürich" role="Speaker" years="2015")

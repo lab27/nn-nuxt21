@@ -2,6 +2,7 @@
   section.mb-24
     h3.section-title Work Experience
     ul.list-work
+      WorkItem(company="ETH Zürich" location="Zürich, Switzerland" role="Senior UX/UI Designer (Contract)" years="2022-Present")
       WorkItem(company="Axpo" location="Baden, Switzerland" role="Senior Product Designer (Contract)" years="2019-Present")
       WorkItem(company="Hochschule Luzern" location="Emmenbrücke, Switzerland" role="Guest Lecturer" years="2019-Present")
       WorkItem(company="Zurich Insurance" location="Oerlikon, Switzerland" role="Senior Front-End Engineer" years="2018-2019")

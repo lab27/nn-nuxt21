@@ -2,11 +2,7 @@
   .container.typeset
     section.intro
       //- .note Animate this:
-      h1(class="text-5xl md:text-7xl lg:text-8xl xl:text-9xl text-center mb-12 tracking-tight") Hi, I'm Nick Niles.
-        br 
-        | I make 
-        mark websites 
-        |.
+      h1(class="text-5xl md:text-7xl lg:text-8xl xl:text-9xl text-center tracking-tight") Hi, I'm Nick Niles.
       //- Arrow
     section
       //- FancyPortrait
@@ -16,11 +12,7 @@
           br
           |Photo by 
           a(href="https://florianziegler.com/" target="_blank") Florian Ziegler.
-      h2(class="mx-0 md:mx-12 text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center font-light") I guide you on every step of the journey from a 
-        mark business need 
-        |to a fully-realized 
-        mark digital solution
-        |.
+      h2(class="mx-0 md:mx-12 text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center font-light") I'm a people-first designer who loves to bring delight to digital products and the teams that build them.
     Arrow
     section
       h3.section-title Areas of Expertise
@@ -69,8 +61,9 @@ section {
   /* min-height: 90vh; */
   @apply p-4 md:p-8;
 }
+
 .section-title {
-  @apply text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight lg:leading-tight text-center font-light mb-12;
+  @apply text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight lg:leading-tight text-center font-light mb-24;
 }
 
 
