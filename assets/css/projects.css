@@ -1,0 +1,263 @@
+ body {
+   height: 100%;
+   min-height: 100vh;
+   background-color: #fff;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: #212328;
+   font-weight: 300;
+ }
+
+ .page-wrapper,
+ main.project {
+   width: 100%;
+   max-width: 1300px;
+   margin: 0 auto;
+ }
+
+
+
+ header {
+   @apply mb-40;
+ }
+
+ header .label {
+   color: #1849D6;
+ }
+
+ /* h1,
+ .done {
+   @apply tracking-tight;
+   font-size: clamp(3rem, 15vw, 10rem);
+   pointer-events: none;
+   font-weight: 700;
+   line-height: 1;
+ } */
+
+ h2 {
+   font-size: clamp(2rem, 4vw, 4rem);
+   margin-bottom: 2rem;
+ }
+
+ a {
+   text-decoration: underline;
+ }
+
+ .gallery a {
+   text-decoration: none;
+ }
+
+ strong {
+   font-weight: 700;
+ }
+
+ .thin {
+   font-weight: 200;
+ }
+
+ p.lead {
+   @apply text-xl md:text-2xl;
+
+ }
+
+ .gallery {
+   @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16;
+ }
+
+ .home figure {
+   width: 100%;
+   max-width: 500px;
+   position: relative;
+ }
+
+ .home figure img {
+   /* border-radius: 10px; */
+   padding: 6px;
+   @apply shadow-xl;
+   border: 10px solid transparent;
+   transition: all .2s cubic-bezier(0.165, 0.84, 0.44, 1);
+   margin-bottom: .5rem;
+ }
+
+ figcaption {
+   @apply text-3xl font-bold;
+   color: #999;
+ }
+
+
+ .home figure:hover img {
+   border: 10px solid black;
+   padding: 0;
+   opacity: 1;
+   transform: scale(1.02) translateY(-2px);
+ }
+
+ .home figure:hover figcaption {
+   color: black;
+ }
+
+
+ .page-enter-active,
+ .page-leave-active {
+   transition: opacity 0.5s;
+ }
+
+ .page-enter,
+ .page-leave-to {
+   opacity: 0;
+ }
+
+ footer {
+   padding-top: 20rem;
+ }
+
+ footer h2 {
+   font-weight: 700;
+   line-height: 1;
+   margin-bottom: 2rem;
+ }
+
+ footer a:hover {
+   text-decoration: underline;
+ }
+
+ /* project */
+ .project h1 {
+   margin-bottom: 4rem;
+ }
+
+ .project .role,
+ .project .responsibilities,
+ .examples,
+ .project .responsibilities ul,
+ .more-projects {
+   @apply text-2xl md:text-3xl leading-relaxed md:leading-normal;
+ }
+
+ .backToTop {
+   @apply text-2xl md:text-3xl leading-relaxed md:leading-normal cursor-pointer text-center pt-20;
+ }
+
+ .backToTop:hover {
+   text-decoration: underline;
+ }
+
+ .responsibilities h3,
+ .role h3,
+ .examples h3,
+ .more-projects h3 {
+   font-weight: 700;
+ }
+
+ .responsibilities ul {
+  width: 100%;
+   margin: 0;
+ }
+
+ .basic-info {
+   @apply grid grid-cols-5 gap-12;
+ }
+
+ .basic-info .role {
+   @apply col-span-5 lg:col-span-3;
+ }
+
+ .basic-info .responsibilities {
+   @apply col-span-5 lg:col-span-2;
+ }
+
+ .project .examples {
+   @apply pt-20;
+ }
+
+ .project .examples h3 {
+   margin-bottom: 2rem;
+ }
+
+ .project .screenshots {
+   @apply grid gap-40;
+ }
+
+ .project figure {
+   @apply grid grid-cols-5 gap-12;
+ }
+
+ .project figure img,
+ .project figure .js-video {
+   /* @apply shadow-xl; */
+   box-shadow: 0 0 2px rgba(0, 0, 0, .1), 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+   width: 100%;
+ }
+
+ .project figure img.no-shadow {
+   box-shadow: none;
+ }
+
+ .js-video.widescreen {
+   padding-bottom: 56.34%;
+ }
+
+ .project figure:nth-child(even) {
+   grid-auto-flow: dense;
+ }
+
+ .project figure:nth-child(even) img,
+ .project figure:nth-child(even) .js-video {
+   @apply col-span-5 lg:col-span-3 lg:col-start-3;
+ }
+
+ .project figure:nth-child(even) figcaption {
+   @apply col-span-5 col-start-1 lg:col-span-2 lg:col-start-1 lg:col-end-3;
+ }
+
+ .project figure:nth-child(odd) {
+   grid-auto-flow: dense;
+ }
+
+ .project figure:nth-child(odd) img,
+ .project figure:nth-child(odd) .js-video {
+   @apply col-span-5 lg:col-span-3 lg:col-start-1;
+ }
+
+ .project figure:nth-child(odd) figcaption {
+   @apply col-span-5 col-start-1 lg:col-span-2 lg:col-start-4 lg:col-end-6;
+ }
+
+ .project figcaption {
+   @apply text-black leading-normal;
+   font-weight: 300;
+ }
+
+ .project figure img.full-w {
+   @apply col-span-5;
+ }
+
+ .project figure img.width-4 {
+   @apply col-span-5 lg:col-span-4;
+ }
+
+ .project figure figcaption.width-1 {
+   @apply col-span-5 lg:col-span-1;
+ }
+
+
+ /* Video */
+ .js-video {
+   height: 0;
+   padding-top: 25px;
+   padding-bottom: 76.5%;
+   margin-bottom: 10px;
+   position: relative;
+   overflow: hidden;
+   padding-top: 0;
+ }
+
+ .js-video embed,
+ .js-video iframe,
+ .js-video object,
+ .js-video video {
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+ }

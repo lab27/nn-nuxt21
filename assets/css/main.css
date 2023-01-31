@@ -5,6 +5,10 @@
  :root {
     --c-highlight: lightgreen;
     --c-dark: #111;
+    --animation-primary: all .5s cubic-bezier(.7, 0, .3, 1);
+    --animation-fast: all .3s cubic-bezier(.7, 0, .3, 1);
+    --animation-smooth: all .7s cubic-bezier(.7, 0, .3, 1);
+    --animation-slow: all .9s cubic-bezier(.7, 0, .3, 1);
 }
 
 html,
@@ -78,7 +82,7 @@ img.logo {
     margin-bottom: 2rem;
 }
 
-.screenshots {
+/* .screenshots {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -106,7 +110,6 @@ img.logo {
 
 .screenshots img {
     width: 100%;
-    /* margin: 1rem; */
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
 }
@@ -122,7 +125,7 @@ img.logo {
 .screenshots img.tall {
     max-height: 400px;
     width: auto;
-}
+} */
 
 ul.projects-list {
     list-style: none;

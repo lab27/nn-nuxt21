@@ -36,23 +36,22 @@ export default {
   data() {
     return {
       projects: [
-        {name: 'Axpo Customer Portal', shortname: 'Axpo', link: 'axpo', year: '2019-2021'},
-        // {name: 'Judit Polgar', shortname: 'Temp', link: 'judit-polgar', year: '2021'},
-        {name: 'Plan Your Recovery', shortname: 'P.Y.R.', link: 'plan-your-recovery', year: '2014-2021'},
-        {name: 'Dodis', link: 'dodis', year: '2018'},
+        {name: 'Axpo Customer Portal', shortname: 'Axpo', link: 'axpo', year: '2019-2023'},
+        {name: 'Plan Your Recovery', shortname: 'P.Y.R.', link: 'pyr', year: '2014-2023'},
+        // {name: 'Dodis', link: 'dodis', year: '2018'},
         // {name: 'Patrick Frank',  link: 'patrick-frank', year: '2019'},
-        {name: 'Zurich Insurance',  shortname: 'Zurich',  link: 'zurich', year: '2018-2019'},
-        {name: 'One Tree One Life',  link: 'otol', year: '2018'},
+        // {name: 'Zurich Insurance',  shortname: 'Zurich',  link: 'zurich', year: '2018-2019'},
+        // {name: 'One Tree One Life',  link: 'otol', year: '2018'},
         {name: 'Collecture',  link: 'collecture', year: '2018'},
         {name: 'Voice Republic',   link: 'voice-republic', year: '2015-2017'},
-        {name: 'ZhdK Incubator', link: 'incubator', year: '2015'},
+        // {name: 'ZhdK Incubator', link: 'incubator', year: '2015'},
         {name: 'Atfront Redesign',  link: 'atfront', year: '2015'},
-        {name: 'Cyverse',  link: 'cyverse', year: '2015'},
+        // {name: 'Cyverse',  link: 'cyverse', year: '2015'},
         // {name: 'Ed Boyer A Cappella', shortname: 'Temp', link: 'edboyer', year: '2015'},
-        {name: 'Smart Home App', link: 'smarthome', year: '2014'},
+        // {name: 'Smart Home App', link: 'smarthome', year: '2014'},
         {name: 'White Risk',  link: 'whiterisk', year: '2011-2012'},
-        {name: 'North Face: Know Boundaries', shortname: 'North Face', link: 'knowboundaries', year: '2011'},
-        {name: 'Assorted Graphic Design', shortname: 'Various', link: 'various', year: '2012-Present'}
+        // {name: 'North Face: Know Boundaries', shortname: 'North Face', link: 'knowboundaries', year: '2011'},
+        // {name: 'Assorted Graphic Design', shortname: 'Various', link: 'various', year: '2012-Present'}
       ],
       isMedium: false
     }
