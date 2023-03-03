@@ -2,17 +2,17 @@
   .container.typeset
     section.intro
       //- .note Animate this:
-      h1(class="text-5xl md:text-7xl lg:text-8xl xl:text-9xl text-center tracking-tight") Hi, I'm Nick Niles.
+      h1(class="text-5xl md:text-7xl lg:text-8xl xl:text-9xl text-center tracking-tight").fadeMe Hi, I'm Nick Niles.
       //- Arrow
     section
       //- FancyPortrait
-      figure.portrait.mb-12
-        img(src="/img/nick_niles_frontconf2.jpg")
+      figure.portrait.mb-12.fadeMe(style="--elementDelay: 0.2s;")
+        img(src="/img/nick_niles_frontconf21.jpg")
         //- figcaption Hosting the Front Conference Zürich 2019. 
           br
           |Photo by 
           a(href="https://florianziegler.com/" target="_blank") Florian Ziegler.
-      h2(class="mx-0 md:mx-12 text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center font-light") I'm a people-first designer who loves to bring delight to digital products and the teams that build them.
+      h2.lead I'm a digital designer who loves to bring delight to products and the teams that build them.
     Arrow
     section
       h3.section-title Areas of Expertise
@@ -50,6 +50,33 @@ export default {
 
 
 <style>
+:root {
+  --elementDelay: 0.1s;
+}
+
+
+.fadeMe {
+  opacity: 0;
+  animation: fadeIn 1s cubic-bezier(0,.66,.07,1) var(--elementDelay) forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95) translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+  
+
+h2.lead {
+@apply mx-0 md:mx-12 text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center font-light;
+line-height: 1.2;
+}
+
 .container {
   width: 100%;
   max-width: 1600px;
@@ -125,8 +152,21 @@ ul.list-work li .work-info:last-child {
   align-items: flex-end;
 }
 
+ul.list-work a {
+  text-decoration: none;
+}
+
+ul.list-work a:hover p.company {
+  color: dodgerblue;
+  box-shadow: inset 0 -1px dodgerblue;
+}
+
 p.company {
   @apply font-semibold;
+  display: inline-block;
+  width: fit-content;
+  box-shadow: none;
+  transition: box-shadow .2s ease-in-out;
 }
 
 p.role {

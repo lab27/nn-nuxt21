@@ -39,7 +39,14 @@
   @apply text-2xl md:text-3xl lg:text-4xl font-light text-center w-full md:w-3/4 lg:w-2/3 mx-auto;
 }
 
+.list-contact a {
+  box-shadow: none;
+  transition: box-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
 .list-contact a:hover {
-  @apply text-blue-500 underline;
+  /* @apply text-blue-500 underline; */
+  color: dodgerblue;
+  box-shadow: inset 0 -1px dodgerblue;
 }
 </style>
