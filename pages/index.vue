@@ -7,8 +7,8 @@
     section
       //- FancyPortrait
       figure.portrait.mb-12.fadeMe(style="--elementDelay: 0.2s;")
-        img(src="/img/nick_niles_frontconf21.jpg")
-        //- figcaption Hosting the Front Conference Zürich 2019. 
+        img(src="/img/nick_niles_hosting.jpg")
+        figcaption Hosting the Front Conference Zürich 2021. 
           br
           |Photo by 
           a(href="https://florianziegler.com/" target="_blank") Florian Ziegler.
@@ -28,14 +28,8 @@
         li Teaching (University Level)
         li Public Speaking & Event Hosting
     Arrow
-    Projects
-    Arrow
-    //- AboutMe
-    //- Arrow
+    AboutMe
     Contact(class="mb-12")
-    nuxt-link(to="/projects")
-      Bison(class="w-1/2 lg:w-1/4 mx-auto")
-      p.m-12.text-center View Projects
 
 </template>
 
@@ -57,7 +51,7 @@ export default {
 
 .fadeMe {
   opacity: 0;
-  animation: fadeIn 1s cubic-bezier(0,.66,.07,1) var(--elementDelay) forwards;
+  animation: fadeIn 2s cubic-bezier(0,.66,.07,1) var(--elementDelay) forwards;
 }
 
 @keyframes fadeIn {

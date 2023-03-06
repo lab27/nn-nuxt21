@@ -12,6 +12,9 @@
         li
           span LinkedIn
           a(href="https://www.linkedin.com/in/nickniles/" target="_blank") /in/nickniles
+        li 
+          span Portfolio
+          a(href="https://portfolio.nickniles.com") Password Protected
       //- form(netlify action="/" method="POST" name="Contact")
         ul.list-contact
           li
